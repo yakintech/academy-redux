@@ -1,19 +1,16 @@
-import React from 'react'
-import Content from './components/Content'
-import Footer from './components/Footer'
-import Old from './components/Old'
-import SiteHeaders from './components/SiteHeaders'
+import React from 'react';
+import AddTodo from './components/todoPages/AddTodo';
+import ToDos from './components/todoPages/ToDos';
+import UpdateTodo from './components/todoPages/UpdateTodo';
 
 function App() {
 
 
   return (<>
-    <Old />
-    <SiteHeaders></SiteHeaders>
+    <AddTodo />
+    <ToDos />
     <hr></hr>
-    <Content></Content>
-    <hr></hr>
-    <Footer></Footer>
+    <UpdateTodo/>
   </>
   )
 }
